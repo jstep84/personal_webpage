@@ -11,7 +11,7 @@ h2 {
 	font-size: 30px;
 }
 
-h3 {
+.sect2 h3 {
 	margin-left: 20px;
 	margin-top: 140px;
 	font-size: 30px;
@@ -57,6 +57,7 @@ h3 {
 
 .sect4 {
 	height: 60em;
+	background-color: #A5ACB5;
 }
 
 img {
@@ -66,29 +67,13 @@ img {
     border-radius: 10px;
 }
 
-/*.essential {
-    height: 200px;
-    width: 320px;
-}*/
-
-.span206 {
-	background-image: url('../assets/span206.jpg');
-	background-repeat: no-repeat;
-  background-position: 50% 0px;
+.sect4 li {
+	list-style-type: none;
+	display: inline-block;	
+	height: 150px;
+	margin: 30px;
+	margin-top: 50px;
 }
-
-.buddybeacon {
-	background-image: url('../assets/buddybeacon.jpg');
-	background-repeat: no-repeat;
-  background-position: 50% 0px;
-}
-
-.breakout {
-	background-image: url('../assets/breakout.jpg');
-	background-repeat: no-repeat;
-  background-position: 50% 0px;
-}
-
 
 
 
