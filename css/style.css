@@ -11,14 +11,17 @@ h2 {
 	font-size: 30px;
 }
 
-.sect2 h3 {
-	margin-left: 20px;
-	margin-top: 140px;
-	font-size: 30px;
-	background-color: rgba(165, 182, 177,0.2);
-	width: 35%;
+.skills {
+	padding: 0;
+	margin-top: 60px; 
 }
 
+.skills li {
+	list-style: none;
+	display: inline;
+	font-size: 20px;
+	margin: 0 5px 0 5px;
+}
 
 .headshot {
 	margin-top: 50px;
@@ -40,6 +43,14 @@ h2 {
 	background-image: url("../assets/divein.jpg");
 	background-size: 120%;
 	height: 60em;
+}
+
+.sect2 h3 {
+	margin-left: 20px;
+	margin-top: 140px;
+	font-size: 30px;
+	background-color: rgba(165, 182, 177,0.2);
+	width: 35%;
 }
 
 .sect3 {
@@ -75,7 +86,82 @@ img {
 	margin-top: 50px;
 }
 
+@media only screen and (max-width: 767px) {
+		
+	h1 {
+		font-size: 45px;
+	}
+	
+	h2 {
+		font-size: 30px;
+	}
 
+	h3 {
+
+	}
+
+	h4 {
+		font-size: 20px;
+	}
+
+	.headshot {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.sect2 {
+		color: white;
+		background-image: none; 
+		background-color: #2B4B6F;
+		background-size: 120%;
+		height: 60em;
+	}
+
+	.sect2 h3 {
+		font-size: 30px;
+		background-color: rgba(165, 182, 177,0.2);
+		width: 100%;
+		margin: 40px 5px 0 0;
+		text-align: center;
+	}
+
+	.sect3 {
+		color: white;
+		background-image: url('../assets/wood.jpg');
+		height: 60em;
+	}
+
+	.sect3 ul {
+		padding: 0;
+		margin-top: 50px;
+	}
+	
+	.sect3 li {
+		list-style-type: none;
+		display: inline-block;
+		width: 240px;
+		height: 160px;
+		margin-top: -10px; 
+	}
+
+	.sect4 ul {
+		padding: 0;
+	}
+	
+	.sect4 li {
+		list-style-type: none;
+		display: inline-block;	
+		height: 120px;
+		margin: 10px;
+		margin-top: 40px;
+		position: relative;
+	}
+
+	.sect4 h3 {
+		font-size: 20px;
+	}
+
+}
 
 
 
